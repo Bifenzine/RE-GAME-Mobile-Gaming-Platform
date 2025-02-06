@@ -1,0 +1,11 @@
+module.exports = ({ config }) => ({
+  ...config,
+  extra: {
+    EXPO_PUBLIC_API_URL_DEV: process.env.EXPO_PUBLIC_API_URL_DEV,
+    EXPO_PUBLIC_API_URL_PROD: process.env.EXPO_PUBLIC_API_URL_PROD,
+    EXPO_PUBLIC_URL_DEV: process.env.EXPO_PUBLIC_URL_DEV,
+    EXPO_PUBLIC_URL_PROD: process.env.EXPO_PUBLIC_URL_PROD,
+    EXPO_PUBLIC_FRONTEND_URL_DEV: process.env.EXPO_PUBLIC_FRONTEND_URL_DEV,
+    EXPO_PUBLIC_FRONTEND_URL_PROD: process.env.EXPO_PUBLIC_FRONTEND_URL_PROD,
+  },
+});

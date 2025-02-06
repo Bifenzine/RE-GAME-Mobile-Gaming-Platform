@@ -1,0 +1,33 @@
+# name: Full-Stack RE:GAME CI/CD (Expo App)
+
+# on:
+#   push:
+#     branches:
+#       - main
+#   pull_request:
+#     branches:
+#       - main
+
+# jobs:
+#   MobileApp:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v3
+
+#       - name: Set up Node.js
+#         uses: actions/setup-node@v3
+#         with:
+#           node-version: 18
+
+#       - name: Install Expo CLI globally
+#         run: npm install -g expo-cli
+
+#       - name: Install dependencies
+#         run: npm install
+
+#       - name: Run tests
+#         run: npm test
+
+#       - name: Build the app
+#         run: expo build:android # Or expo build:ios, depending on what you want to build
